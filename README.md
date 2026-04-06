@@ -22,6 +22,7 @@ ssh ctf-player@dolphin-cove.picoctf.net -p XXXXX
 cat part_aa part_ab part_ac part_ad part_ae > flag.zip
 unzip flag.zip
 cat flag.txt
+
 ---
 
 ### picoCTF - MY GIT
@@ -43,6 +44,39 @@ touch flag.txt
 git add flag.txt
 git commit -m "flag"
 git push
+
+---
+
+### picoCTF - Printer Shares
+**Category:** General Skills | **Difficulty:** Easy
+
+**โจทย์:** มีคนส่งไฟล์ไปเครื่องพิมพ์ผิด ให้ดึงไฟล์กลับมา
+
+**วิธีแก้:**
+1. เชื่อมต่อเซิร์ฟเวอร์ด้วย nc
+2. ดึงข้อมูลจาก print server
+
+**คำสั่งที่ใช้:**
+nc mysterious-sea.picoctf.net XXXXX
+
+---
+
+### picoCTF - Undo
+**Category:** General Skills | **Difficulty:** Easy
+
+**โจทย์:** ย้อนกลับการแปลงข้อความ Linux หลายๆ อย่างเพื่อกู้ flag
+
+**วิธีแก้:**
+1. เชื่อมต่อด้วย nc
+2. ถอดรหัส base64
+3. กลับข้อความด้วย rev
+4. แทนที่ตัวอักษรด้วย tr
+
+**คำสั่งที่ใช้:**
+nc foggy-cliff.picoctf.net XXXXX
+base64 -d
+rev
+tr '-' '_'
 ---
 
 ## Linux Commands
