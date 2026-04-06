@@ -103,3 +103,41 @@ Caesar Cipher shift 13
 
 ### Hex Encoding
 แปลงข้อความเป็น hex
+---
+
+## ความสามารถ
+
+### Cybersecurity
+- ทำ CTF สาย General Skills และ Cryptography
+- ใช้ Linux Terminal ได้คล่อง
+- เข้าใจการเข้ารหัสพื้นฐาน เช่น Caesar Cipher, Base64, Hex
+
+### Programming
+- Python ระดับเริ่มต้น-กลาง
+- เขียนโปรแกรมถอดรหัสได้เอง
+- โปรเจคที่ทำแล้ว: เครื่องคิดเลข, เกมทายตัวเลข, สมุดบันทึก, Voice Assistant
+
+### Linux
+- ใช้ Ubuntu เป็นประจำ
+- รู้คำสั่งพื้นฐานและคำสั่ง CTF ครบ
+
+### Tools
+- picoCTF
+- PyCharm
+- GitHub
+- Linux Terminal
+- ---
+
+## เป้าหมาย
+
+- สอบเข้า KVIS หรือ MWIT (ม.4)
+- แข่ง CTF ระดับประเทศและนานาชาติ
+- เรียนมหาวิทยาลัยด้าน Cybersecurity
+
+---
+
+## ติดต่อ
+
+- GitHub: github.com/sreeresort-sudo
+- picoCTF: sreeresort
+- Email: sreeresort@gmail.com
