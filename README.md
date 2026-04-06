@@ -140,4 +140,3 @@ Caesar Cipher shift 13
 
 - GitHub: github.com/sreeresort-sudo
 - picoCTF: sreeresort
-- Email: sreeresort@gmail.com
